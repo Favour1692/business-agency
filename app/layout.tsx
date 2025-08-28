@@ -27,7 +27,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${h1font.variable} ${h2font.variable} ${formfont.variable} ${buttonfont.variable} ${logofont}`}
+      className={`${h1font.variable} ${h2font.variable} ${formfont.variable} ${buttonfont.variable} ${logofont} scroll-smooth`}
     >
       <body className="overflow-x-hidden">
         <ThemeProvider

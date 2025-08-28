@@ -19,8 +19,18 @@ export default function Mode() {
   const isDark = theme === "dark";
 
   return (
-    <Button variant="outline" size="icon" onClick={() => setTheme(isDark ? "light" : "dark")} aria-label="Toggle Theme" className="z-100">
-      {isDark ? <LuSun className="h-5 w-5 font-bold text-xl md:3xl" /> : <LuMoon className="h-5 w-5 text-black font-bold text-xl md:3xl" />}
+    <Button
+      variant="ghost"
+      size="icon"
+      onClick={() => setTheme(isDark ? "light" : "dark")}
+      aria-label="Toggle Theme"
+      className="z-100"
+    >
+      {isDark ? (
+        <LuSun className="h-5 w-5 font-bold text-3xl text-lightfont" />
+      ) : (
+        <LuMoon className="h-5 w-5 text-burgundry font-bold text-3xl" />
+      )}
     </Button>
   );
 }

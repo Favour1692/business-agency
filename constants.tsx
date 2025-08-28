@@ -21,7 +21,7 @@ import { FiBarChart2 } from "react-icons/fi";
 export const navdata: Nav[] = [
   {
     id: 1,
-    href: "/",
+    href: "#home",
     title: "Home",
   },
   {
@@ -41,7 +41,7 @@ export const navdata: Nav[] = [
   },
   {
     id: 5,
-    href: "#testimonals",
+    href: "#testimonials",
     title: "Testimonials",
   },
   {

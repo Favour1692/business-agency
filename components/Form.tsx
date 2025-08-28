@@ -20,7 +20,7 @@ const Form = () => {
             id="name"
             autoComplete="on"
             required
-            className="py-3 w-full border-2 border-burgundry/40 dark:border-dimburgundry/40"
+            className="py-2 w-full border-2 border-burgundry/40 dark:border-dimburgundry/40"
           />
         </div>
         <div className="flex flex-col gap-1">
@@ -33,7 +33,7 @@ const Form = () => {
             id="email"
             autoComplete="on"
             required
-            className="py-3 w-full border-2 border-burgundry/40 dark:border-dimburgundry/40"
+            className="py-2 w-full border-2 border-burgundry/40 dark:border-dimburgundry/40"
           />
         </div>
         <div className="flex flex-col gap-1">
@@ -46,7 +46,7 @@ const Form = () => {
             id="phone"
             autoComplete="on"
             required
-            className="py-3 w-full border-2 border-burgundry/40 dark:border-dimburgundry/40"
+            className="py-2 w-full border-2 border-burgundry/40 dark:border-dimburgundry/40"
           />
         </div>
         <div className="flex flex-col gap-1">

@@ -3,7 +3,11 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <section className="w-full h-screen bg-left md:bg-center" style={herobg}>
+    <section
+      id="home"
+      className="w-full h-screen bg-left md:bg-center"
+      style={herobg}
+    >
       <div
         className="w-full h-full flex flex-col justify-center items-center bg-charcoal/20"
         style={herotexture}

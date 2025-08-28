@@ -20,7 +20,7 @@ const Tescarousel = () => {
       }}
       plugins={[
         Autoplay({
-          delay: 2000,
+          delay: 3000,
           stopOnMouseEnter: true,
           stopOnInteraction: false,
         }),

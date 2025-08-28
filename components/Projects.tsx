@@ -5,7 +5,10 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <section className="pt-10 md:pt-20 px-4 sm:px-6 lg:px-8 overflow-x-hidden">
+    <section
+      id="projects"
+      className="pt-10 md:pt-20 px-4 sm:px-6 lg:px-8 overflow-x-hidden scroll-mt-16"
+    >
       <div className="max-w-7xl mx-auto">
         <h2 data-aos="fade-up">our work</h2>
         <h3 data-aos="fade-up" data-aos-delay="100">
@@ -33,7 +36,7 @@ const Projects = () => {
                     className="object-cover"
                   ></Image>
                 </div>
-                <h3 className="text-base text-viridian dark:text-graylight">
+                <h3 className="text-base text-viridian dark:text-graylight capitalize">
                   {data.title}
                 </h3>
                 <p>{data.description}</p>
@@ -41,9 +44,7 @@ const Projects = () => {
             </Card>
           ))}
         </div>
-        <Button className="bg-burgundry text-lightfont hover:bg-graylight dark:hover:bg-graylight hover:text-darkfont border border-burgundry">
-          Let&apos;s build together
-        </Button>
+        <Button className="btn-burgundry">Let&apos;s build together</Button>
       </div>
     </section>
   );

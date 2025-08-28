@@ -150,4 +150,7 @@
   .btn-secondary {
     @apply bg-transparent border-2 border-burgundry text-light hover:bg-graylight hover:text-darkfont transition-all duration-200 ease-in capitalize;
   }
+  .btn-burgundry {
+    @apply bg-burgundry text-lightfont hover:bg-graylight dark:hover:bg-graylight hover:text-darkfont border border-burgundry transition-all duration-200 ease-in capitalize;
+  }
 }

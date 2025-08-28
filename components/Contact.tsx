@@ -7,10 +7,10 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <section className="overflow-x-hidden">
+    <section id="contact" className="overflow-x-hidden scroll-mt-16">
       <div className="pt-10 md:pt-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div>
+          <div className="pb-3">
             <h2 data-aos="fade-up">Contact us</h2>
             <h3 data-aos="fade-up" data-aos-delay="100">
               Ready to grow your business?

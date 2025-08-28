@@ -4,7 +4,10 @@ import Tescarousel from "@/components/Tescarousel";
 
 const Testimonials = () => {
   return (
-    <section className="pt-10 md:pt-20 px-4 sm:px-6 lg:px-8 overflow-x-hidden">
+    <section
+      id="testimonials"
+      className="pt-10 md:pt-20 px-4 sm:px-6 lg:px-8 overflow-x-hidden scroll-mt-16"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
           {/* text */}
@@ -23,7 +26,7 @@ const Testimonials = () => {
             <div>
               Want results like these?{" "}
               <Button
-                className="btn-secondary"
+                className="btn-burgundry"
                 data-aos="fade-left"
                 data-aos-delay="300"
               >
