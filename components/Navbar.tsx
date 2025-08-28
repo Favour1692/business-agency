@@ -16,7 +16,7 @@ const Navbar = () => {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY >= 30) {
         setScroll(true);
       } else {
         setScroll(false);
@@ -62,12 +62,12 @@ const Navbar = () => {
             {open ? (
               <IoMdClose
                 onClick={handleClick}
-                className="z-100 lg:hidden text-burgundry dark:text-dimburgundry font-bold"
+                className="z-100 lg:hidden text-burgundry dark:text-dimburgundry font-bold text-xl"
               />
             ) : (
               <FiMenu
                 onClick={handleClick}
-                className="z-100 lg:hidden text-burgundry dark:text-dimburgundry font-bold"
+                className="z-100 lg:hidden text-burgundry dark:text-dimburgundry font-bold text-xl"
               />
             )}
           </div>

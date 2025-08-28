@@ -22,8 +22,8 @@ const Hero = () => {
             help you stand out, connect with your audience, and scale with
             confidence
           </p>
-          <div className="flex gap-4 justify-center mt-4">
-            <Button variant="default" className="btn-secondary hidden sm:flex">
+          <div className="flex gap-3 justify-center mt-4">
+            <Button variant="default" className="btn-secondary">
               Get Started
             </Button>
             <Button variant="default" className="btn-primary">

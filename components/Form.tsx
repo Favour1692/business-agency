@@ -6,7 +6,7 @@ const Form = () => {
     <form
       action=""
       className="pt-8 pb-6 my-8 px-3 md:px-4 bg-viridian/30 dark:bg-dimviridian/30 dark:text-graylight rounded-xl w-full lg:w-[80%]"
-      data-aos="flip-up"
+      data-aos="flip-left"
       style={formtexture}
     >
       <div className="flex flex-col gap-4">

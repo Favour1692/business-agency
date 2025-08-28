@@ -19,7 +19,7 @@ const Services = () => {
             <Card
               key={data.id}
               className="h-auto md:h-[180px] bg-light dark:bg-darkfont hover:bg-graylight dark:hover:bg-graydark shadow-lg shadow-graydark dark:shadow-none hover:text-ivory flex flex-col justify-center items-center py-3"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-delay="200"
             >
               <CardContent className="flex flex-col gap-2 items-center text-center">
