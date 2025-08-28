@@ -1,5 +1,4 @@
 import { Button } from "./ui/button";
-import Link from "next/link";
 import Tescarousel from "@/components/Tescarousel";
 
 const Testimonials = () => {
@@ -30,7 +29,7 @@ const Testimonials = () => {
                 data-aos="fade-left"
                 data-aos-delay="300"
               >
-                Let's work together
+                Let&apos;s work together
               </Button>
             </div>
           </div>

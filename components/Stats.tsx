@@ -11,8 +11,8 @@ const Stats = () => {
           Proven Results, Backed by Numbers
         </h3>
         <p className="mt-2" data-aos="fade-up" data-aos-delay="200">
-          We don't just talk strategy. We deliver measurable growth for every
-          client we work with.
+          We don&apos;t just talk strategy. We deliver measurable growth for
+          every client we work with.
         </p>
         <div className="w-full md:w-[80%] px-4 pt-8 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           <div className="text-lg">
