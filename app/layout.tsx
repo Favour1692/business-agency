@@ -14,7 +14,7 @@ import {
 import AosInit from "@/components/AosInit";
 
 export const metadata: Metadata = {
-  title: "Business Agency",
+  title: "Nexus Agency",
   description: "A website for a business agency company",
 };
 
