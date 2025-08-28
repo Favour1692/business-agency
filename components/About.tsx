@@ -40,7 +40,7 @@ const About = () => {
               and consulting. Our team partners with ambitious businesses to
               build strategies that inspire, campaigns that deliver and brands
               that last. With a mix of creativity and data-driven insights, we
-              make sure your business doesn't just compete but leads.
+              make sure your business doesn&apos;t just compete but leads.
             </p>
             <div className="text-left">
               <Link href="#services">
