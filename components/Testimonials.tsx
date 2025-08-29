@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import Tescarousel from "@/components/Tescarousel";
+import Link from "next/link";
 
 const Testimonials = () => {
   return (
@@ -24,13 +25,15 @@ const Testimonials = () => {
             </p>
             <div>
               Want results like these?{" "}
-              <Button
-                className="btn-burgundry"
-                data-aos="fade-left"
-                data-aos-delay="300"
-              >
-                Let&apos;s work together
-              </Button>
+              <Link href="#contact">
+                <Button
+                  className="btn-burgundry"
+                  data-aos="fade-left"
+                  data-aos-delay="300"
+                >
+                  Let&apos;s work together
+                </Button>
+              </Link>
             </div>
           </div>
           {/* carousel */}

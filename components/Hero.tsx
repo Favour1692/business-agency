@@ -1,5 +1,6 @@
 import { herobg, herotexture } from "@/constants";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -23,12 +24,16 @@ const Hero = () => {
             confidence
           </p>
           <div className="flex gap-3 justify-center mt-4">
-            <Button variant="default" className="btn-secondary">
-              Get Started
-            </Button>
-            <Button variant="default" className="btn-primary">
-              View Our Services
-            </Button>
+            <Link href="#contact">
+              <Button variant="default" className="btn-secondary">
+                Get Started
+              </Button>
+            </Link>
+            <Link href="#services">
+              <Button variant="default" className="btn-primary text-graylight">
+                View Our Services
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

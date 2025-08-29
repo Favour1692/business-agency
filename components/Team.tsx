@@ -28,6 +28,7 @@ const Team = () => {
               alt="team posing in an office"
               width={500}
               height={333}
+              sizes="(max-width: 767px) 100vw, 500px"
               className="rounded-lg"
               data-aos="zoom-in-left"
             ></Image>

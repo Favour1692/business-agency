@@ -17,6 +17,7 @@ const About = () => {
               alt="people in an office"
               width={500}
               height={333}
+              sizes="(max-width: 767px) 100vw, 500px"
               className="rounded-lg"
               data-aos="zoom-in-right"
             ></Image>
@@ -24,7 +25,7 @@ const About = () => {
 
           {/* text */}
           <div
-            className="flex flex-col gap-4 items-center lg:items-start order-1 lg:order-2"
+            className="flex flex-col gap-4 lg:items-start order-1 lg:order-2"
             data-aos="fade-right"
           >
             <div>

@@ -12,9 +12,10 @@ import {
   logofont,
 } from "@/font";
 import AosInit from "@/components/AosInit";
+import PreloadImage from "./PreloadImage";
 
 export const metadata: Metadata = {
-  title: "Nexus Agency",
+  title: "Nexure Agency",
   description: "A website for a business agency company",
 };
 
@@ -30,6 +31,7 @@ export default function RootLayout({
       className={`${h1font.variable} ${h2font.variable} ${formfont.variable} ${buttonfont.variable} ${logofont} scroll-smooth`}
     >
       <body className="overflow-x-hidden">
+        <PreloadImage />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

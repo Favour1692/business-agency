@@ -36,6 +36,7 @@ const Contact = () => {
                 alt="a staff in office with a client"
                 width={500}
                 height={333}
+                sizes="(max-width: 767px) 100vw, 500px"
                 className="rounded-lg"
                 data-aos="zoom-in-left"
                 data-aos-delay="100"

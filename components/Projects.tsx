@@ -2,6 +2,7 @@ import { projectCard } from "@/constants";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "./ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -44,7 +45,9 @@ const Projects = () => {
             </Card>
           ))}
         </div>
-        <Button className="btn-burgundry">Let&apos;s build together</Button>
+        <Link href="#contact">
+          <Button className="btn-burgundry">Let&apos;s build together</Button>
+        </Link>
       </div>
     </section>
   );
